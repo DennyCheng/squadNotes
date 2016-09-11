@@ -1,0 +1,24 @@
+<h1> Hello from test partial</h1>
+<form id="addressForm">
+  <div>
+    <label for ="street">Street:</label>
+    <input type="text" id="street" name="street" ng-model="newAddress.street"/>
+  </div>
+
+  <div>
+    <label for ="city">City:</label>
+    <input type="text" id="city" name="city" ng-model="newAddress.city"/>
+  </div>
+
+  <div>
+    <label for ="state">State:</label>
+    <input type="text" id="state" name="state" ng-model="newAddress.state"/>
+  </div>
+
+  <div>
+    <label for ="zip">Zip Code:</label>
+    <input type="text" id="zip" name="zip" ng-model="newAddress.zip"/>
+  </div>
+
+  <button ng-click="submitAddress()">Submit</button>
+</form>
